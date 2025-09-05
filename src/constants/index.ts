@@ -17,6 +17,14 @@ import ImgRight from "../assets/images/right.png"
 import Check from "../assets/images/check.png"
 import Warning from "../assets/images/warning.png"
 
+import User from "../assets/images/user.jpg"
+import FB from "../assets/images/fb.png"
+import Slider from "../assets/images/slider.png"
+
+import News1 from "../assets/images/news1.png"
+import News2 from "../assets/images/news2.png"
+import News3 from "../assets/images/news3.png"
+
 export const NAVBAR_CONTENT = {
     logo: Logo,
     links: [
@@ -143,6 +151,67 @@ export const PRICING_CONTENT = {
                 { label: 'Live Chart Support', warning: true }
             ],
             btn: 'Get 14 Days Free Trial'
+        }
+    ],
+    warningIcon: Warning
+}
+
+export const TESTIMONIAL_CONTENT = {
+    user: User,
+    testimonial: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
+    name: 'Joenell Alonzo, Frontend Developer',
+    fb: FB,
+    slider: Slider
+}
+
+export const DOWNLOAD_CONTENT = {
+    title: 'Download our app for free',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare',
+    placeholder: 'Enter your email',
+    btn: 'Sign Up',
+    footer: `By clicking Sign Up you're confirming that you agree with our Terms and Conditions.`
+}
+
+export const NEWS_CONTENT = {
+    title: 'Our Latest News',
+    items: [
+        { type: 'UIUX', img: News1, title: 'Our iOS app has a new design...', date: 'July 28, 2025' },
+        { type: 'Webflow', img: News2, title: 'Our iOS app has a new design...', date: 'August 17, 2025' },
+        { type: 'CMS', img: News3, title: 'Our iOS app has a new design...', date: 'September 05, 2025' },
+    ]
+}
+
+export const FOOTER_CONTENT = {
+    title: 'Install App',
+    playstore: PlayStore,
+    appstore: AppStore,
+    links: [
+        {
+            title: 'Company',
+            links: [
+                'About',
+                'Features',
+                'Works',
+                'Career'
+            ]
+        },
+        {
+            title: 'Help',
+            links: [
+                'Customer Support',
+                'Delivery Details',
+                'Terms & Conditions',
+                'Privacy Policy'
+            ]
+        },
+        {
+            title: 'Resources',
+            links: [
+                'Free eBooks',
+                'Development Tutorial',
+                'How to - Blog',
+                'Youtube Playlist'
+            ]
         }
     ]
 }
