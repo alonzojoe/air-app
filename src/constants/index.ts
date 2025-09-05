@@ -15,6 +15,7 @@ import ImgLeft from "../assets/images/left.png"
 import ImgRight from "../assets/images/right.png"
 
 import Check from "../assets/images/check.png"
+import Warning from "../assets/images/warning.png"
 
 export const NAVBAR_CONTENT = {
     logo: Logo,
@@ -90,6 +91,58 @@ export const TRACKING_CONTENT = {
             icon: Check,
             title: 'User Interactive',
             description: 'Mucker plastered bugger all mate morish are eroselna culpa expedita.',
+        }
+    ]
+}
+
+export const PRICING_CONTENT = {
+    title: 'Simple, easy pricing plans for the application',
+    subTitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut .',
+    items: [
+        {
+            id: 1,
+            price: '$19',
+            month: '/ month',
+            description: 'All the basic features to boost your freelance career',
+            focused: false,
+            features: [
+                { label: 'Push Notifications', warning: true },
+                { label: 'Offline Synchronization', warning: true },
+                { label: 'Unlimited Visitors', warning: false },
+                { label: '100 GB Free Storage', warning: false },
+                { label: 'Live Chart Support', warning: true }
+            ],
+            btn: 'Get 14 Days Free Trial'
+        },
+        {
+            id: 2,
+            price: '$99',
+            month: '/ month',
+            description: 'All the basic features to boost your freelance career',
+            focused: false,
+            features: [
+                { label: 'Push Notifications', warning: true },
+                { label: 'Offline Synchronization', warning: false },
+                { label: 'Unlimited Visitors', warning: false },
+                { label: '100 GB Free Storage', warning: false },
+                { label: 'Live Chart Support', warning: true }
+            ],
+            btn: 'Get 14 Days Free Trial'
+        },
+        {
+            id: 3,
+            price: '$49',
+            month: '/ month',
+            description: 'All the basic features to boost your freelance career',
+            focused: false,
+            features: [
+                { label: 'Push Notifications', warning: true },
+                { label: 'Offline Synchronization', warning: true },
+                { label: 'Unlimited Visitors', warning: false },
+                { label: '100 GB Free Storage', warning: false },
+                { label: 'Live Chart Support', warning: true }
+            ],
+            btn: 'Get 14 Days Free Trial'
         }
     ]
 }
