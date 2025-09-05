@@ -2,6 +2,9 @@ import Logo from "../assets/images/logo.png"
 import Hero from "../assets/images/hero.png"
 import PlayStore from "../assets/images/playstore.png"
 import AppStore from "../assets/images/appstore.png"
+import Icon1 from "../assets/images/icon1.png"
+import Icon2 from "../assets/images/icon2.png"
+import Icon3 from "../assets/images/icon3.png"
 
 export const NAVBAR_CONTENT = {
     logo: Logo,
@@ -22,3 +25,19 @@ export const HOME_CONTENT = {
 }
 
 
+export const STATS_CONTENT = [
+    { id: 1, title: '100', subTitle: 'User' },
+    { id: 2, title: '33k', subTitle: 'Download' },
+    { id: 3, title: '10k', subTitle: 'Customer' },
+    { id: 4, title: '20k', subTitle: 'Developer' },
+]
+
+export const FEATURES_CONTENT = {
+    title: 'A brief description of how it works Air apart from others',
+    subTitle: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia',
+    items: [
+        { id: 1, icon: Icon1, title: 'Innovative Solution', description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. ' },
+        { id: 2, icon: Icon2, title: 'Fully functional', description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. ' },
+        { id: 3, icon: Icon3, title: 'Suporting', description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. ' }
+    ]
+}
