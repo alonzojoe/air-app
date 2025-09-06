@@ -1,15 +1,17 @@
 import { HOME_CONTENT } from "../constants";
 const HeroSection = () => {
   return (
-    <section id="home" className="pt-36 lg:pt-42 bg-lightgrey">
+    <section id="home" className="pt-10 lg:pt-15 bg-lightgrey">
       <div className="max-w-7xl mx-auto px-3 py-2">
-        <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-8 md:gap-10 mb-20">
-          <div className="flex flex-col space-y-6">
-            <h1 className="text-darktext text-6xl font-bold tracking-tighter">
+        <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-0 md:gap-10">
+          <div className="flex flex-col space-y-6 mt-10 md:mt-0 mb-20">
+            <h1 className="text-center md:text-left text-darktext text-5xl md:text-6xl font-bold md:tracking-tighter tracking-normal">
               {HOME_CONTENT.title}
             </h1>
-            <p className="text-md text-secondary">{HOME_CONTENT.description}</p>
-            <div className="flex items-center gap-5">
+            <p className="text-center md:text-left text-md text-secondary">
+              {HOME_CONTENT.description}
+            </p>
+            <div className="flex justify-center md:justify-start items-center gap-5">
               <a href="#">
                 <img
                   src={HOME_CONTENT.playstore}
