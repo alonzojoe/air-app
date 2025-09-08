@@ -168,7 +168,7 @@ export const DOWNLOAD_CONTENT = {
     title: 'Download our app for free',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare',
     placeholder: 'Enter your email',
-    btn: 'Sign Up',
+    btn: 'Download App',
     footer: `By clicking Sign Up you're confirming that you agree with our Terms and Conditions.`
 }
 

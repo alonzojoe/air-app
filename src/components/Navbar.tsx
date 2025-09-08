@@ -12,9 +12,13 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 right-0 left-0 z-100">
-      <div className="max-w-7xl mx-auto bg-lightgrey/60 backdrop-blur-md px-4 py-5 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto bg-lightgrey/60 backdrop-blur-md px-4 py-3 lg:py-5 flex items-center justify-between">
         <div className="flex items-center gap-10">
-          <img src={NAVBAR_CONTENT.logo} height={10} width={104} alt="logo" />
+          <img
+            className="h-[34px] w-[104px]"
+            src={NAVBAR_CONTENT.logo}
+            alt="logo"
+          />
           <ul className="hidden md:flex items-center gap-10">
             {NAVBAR_CONTENT.links.map((l) => (
               <li
@@ -40,9 +44,9 @@ const Navbar = () => {
         <div className="md:hidden">
           <span className="cursor-pointer" onClick={handleToggle}>
             {open ? (
-              <IoMdClose className="text-4xl" />
+              <IoMdClose className="text-3xl" />
             ) : (
-              <CgMenuRight className="text-4xl" />
+              <CgMenuRight className="text-3xl" />
             )}
           </span>
         </div>
@@ -55,7 +59,7 @@ const Navbar = () => {
         }`}
       >
         <div className="overflow-hidden">
-          <div className="p-4 bg-lightgrey/60 backdrop-blur-md rounded-xl border border-gray-300 mt-0 mx-3">
+          <div className="p-4 bg-lightgrey/60 backdrop-blur-md rounded-xl border border-gray-300 mt-2 mx-2">
             <ul className="ml-3flex flex-col space-y-5">
               {NAVBAR_CONTENT.links.map((l) => (
                 <li
