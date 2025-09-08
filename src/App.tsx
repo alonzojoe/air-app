@@ -4,6 +4,7 @@ import StatsSection from "./components/StatsSection";
 import FeatureSection from "./components/FeatureSection";
 import HighlightSection from "./components/HighlightSection";
 import TrackingSection from "./components/TrackingSection";
+import PricingSection from "./components/PricingSection";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <FeatureSection />
       <HighlightSection />
       <TrackingSection />
+      <PricingSection />
     </main>
   );
 };
