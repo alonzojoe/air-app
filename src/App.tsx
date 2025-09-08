@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import StatsSection from "./components/StatsSection";
 import FeatureSection from "./components/FeatureSection";
+import HighlightSection from "./components/HighlightSection";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <HeroSection />
       <StatsSection />
       <FeatureSection />
+      <HighlightSection />
     </main>
   );
 };
