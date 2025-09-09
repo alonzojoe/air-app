@@ -3,7 +3,7 @@ import { TESTIMONIAL_CONTENT } from "../constants";
 const TestimonialSection = () => {
   return (
     <section id="testimonial">
-      <div className="bg-lightgrey max-w-7xl mx-auto px-3 py-2 my-20">
+      <div className="bg-lightgrey max-w-7xl mx-auto px-3 py-10 md:py-2 my-20">
         <div className="grid grid-cols-12 items-center gap-5 lg:gap-10">
           <div className="col-span-12 md:col-span-6 lg:col-span-4 flex items-center justify-center">
             <img
