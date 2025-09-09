@@ -7,6 +7,7 @@ import TrackingSection from "./components/TrackingSection";
 import PricingSection from "./components/PricingSection";
 import DownloadSection from "./components/DownloadSection";
 import TestimonialSection from "./components/TestimonialSeciton";
+import NewsSection from "./components/NewsSection";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <PricingSection />
       <TestimonialSection />
       <DownloadSection />
+      <NewsSection />
     </main>
   );
 };
