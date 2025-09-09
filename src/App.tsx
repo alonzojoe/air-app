@@ -18,8 +18,8 @@ const App = () => {
       <HighlightSection />
       <TrackingSection />
       <PricingSection />
-      <DownloadSection />
       <TestimonialSection />
+      <DownloadSection />
     </main>
   );
 };
