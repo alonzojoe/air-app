@@ -4,9 +4,9 @@ import Warning from "../assets/images/warning.png";
 
 const PricingSection = () => {
   return (
-    <section id="pricing">
+    <section id="pricing" className="bg-lightgrey">
       <div className="max-w-7xl mx-auto px-3 py-2">
-        <div className="text-center flex flex-col space-y-7 mx-5 lg:mx-20 mb-10 mt-20">
+        <div className="text-center flex flex-col space-y-7 mx-5 lg:mx-20 my-20">
           <h2 className="text-darktext text-3xl lg:text-4xl font-bold">
             {PRICING_CONTENT.title}
           </h2>
