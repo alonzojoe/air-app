@@ -10,7 +10,7 @@ import TestimonialSection from "./components/TestimonialSeciton";
 
 const App = () => {
   return (
-    <main className="text-base text-secondary antialiased">
+    <main className="text-base text-secondary antialiased scroll-smooth">
       <Navbar />
       <HeroSection />
       <StatsSection />
