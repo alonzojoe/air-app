@@ -8,6 +8,7 @@ import PricingSection from "./components/PricingSection";
 import DownloadSection from "./components/DownloadSection";
 import TestimonialSection from "./components/TestimonialSeciton";
 import NewsSection from "./components/NewsSection";
+import FooterSection from "./components/FooterSection";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <TestimonialSection />
       <DownloadSection />
       <NewsSection />
+      <FooterSection />
     </main>
   );
 };
