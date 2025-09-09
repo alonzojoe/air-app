@@ -6,10 +6,13 @@ import HighlightSection from "./components/HighlightSection";
 import TrackingSection from "./components/TrackingSection";
 import PricingSection from "./components/PricingSection";
 import DownloadSection from "./components/DownloadSection";
+import TestimonialSection from "./components/TestimonialSeciton";
+import NewsSection from "./components/NewsSection";
+import FooterSection from "./components/FooterSection";
 
 const App = () => {
   return (
-    <main className="text-base text-secondary antialiased">
+    <main className="text-base text-secondary antialiased scroll-smooth">
       <Navbar />
       <HeroSection />
       <StatsSection />
@@ -17,7 +20,10 @@ const App = () => {
       <HighlightSection />
       <TrackingSection />
       <PricingSection />
+      <TestimonialSection />
       <DownloadSection />
+      <NewsSection />
+      <FooterSection />
     </main>
   );
 };

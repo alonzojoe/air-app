@@ -181,6 +181,9 @@ export const NEWS_CONTENT = {
     ]
 }
 
+const date = new Date()
+const year = date.getFullYear()
+
 export const FOOTER_CONTENT = {
     title: 'Install App',
     playstore: PlayStore,
@@ -213,5 +216,6 @@ export const FOOTER_CONTENT = {
                 'Youtube Playlist'
             ]
         }
-    ]
+    ],
+    footer: `© ${year} All Right Reserved @alonzojoe`
 }
