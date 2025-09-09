@@ -6,6 +6,7 @@ import HighlightSection from "./components/HighlightSection";
 import TrackingSection from "./components/TrackingSection";
 import PricingSection from "./components/PricingSection";
 import DownloadSection from "./components/DownloadSection";
+import TestimonialSection from "./components/TestimonialSeciton";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <TrackingSection />
       <PricingSection />
       <DownloadSection />
+      <TestimonialSection />
     </main>
   );
 };
